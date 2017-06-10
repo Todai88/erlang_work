@@ -11,7 +11,7 @@
 -author("todai").
 
 print_cities([]) ->
-  0;
+  ok;
 
 print_cities([H|T]) ->
   io:format('city: ~p~n', [H]),
