@@ -15,4 +15,4 @@ print_cities([]) ->
 
 print_cities([H|T]) ->
   io:format('city: ~p~n', [H]),
-  [H|print_cities([T])].
+  [H|print_cities(T)].
